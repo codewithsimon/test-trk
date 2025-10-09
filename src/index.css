@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+@layer utilities {
+  .glow-border {
+    box-shadow: 0 0 25px rgba(20, 161, 159, 0.6), 0 0 50px rgba(20, 161, 159, 0.3);
+  }
+
+  .glow-text {
+    text-shadow: 0 0 30px rgba(20, 161, 159, 0.8), 0 0 60px rgba(20, 161, 159, 0.4);
+  }
+
+  .card-shadow {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5), 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  .card-shadow-hover {
+    box-shadow: 0 20px 60px rgba(20, 161, 159, 0.3), 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
+
+  .gradient-border {
+    position: relative;
+    background: linear-gradient(145deg, #1f2937, #111827);
+  }
+
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 2px;
+    background: linear-gradient(145deg, #14a19f, #0d7775);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .gradient-border:hover::before {
+    opacity: 1;
+  }
+}
