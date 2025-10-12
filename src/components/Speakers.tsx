@@ -59,6 +59,13 @@ const Speakers = () => {
       bio: 'Founder of Adamur BASIX Partners, bringing entrepreneurial vision and strategic expertise to evaluate innovative ventures.',
       image: '/image.png',
     },
+    {
+      name: 'Janie',
+      title: 'Founder, Adamur BASIX Partners',
+      role: 'Judge',
+      bio: 'Co-founder of Adamur BASIX Partners, driving innovation and strategic partnerships in the tech ecosystem.',
+      image: '/image.png',
+    },
   ];
 
   return (
