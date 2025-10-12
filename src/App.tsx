@@ -8,9 +8,6 @@ import Speakers from './components/Speakers';
 import Schedule from './components/Schedule';
 import PoweredBy from './components/PoweredBy';
 import SupportedBy from './components/SupportedBy';
-import FAQ from './components/FAQ';
-import Contact from './components/Contact';
-import Register from './components/Register';
 import Footer from './components/Footer';
 
 function App() {
@@ -30,9 +27,6 @@ function App() {
       <Schedule />
       <PoweredBy />
       <SupportedBy />
-      <FAQ />
-      <Contact />
-      <Register />
       <Footer />
     </div>
   );

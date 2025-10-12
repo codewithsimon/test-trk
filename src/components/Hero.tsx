@@ -57,7 +57,9 @@ const Hero = () => {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="#register"
+            href="https://luma.com/th1cr48f"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group px-8 py-4 bg-gradient-to-r from-[#14a19f] to-[#0d7775] text-white rounded-xl text-lg font-semibold hover:glow-border hover:scale-105 transition-all duration-300 flex items-center space-x-2 shadow-2xl"
             style={{ boxShadow: '0 10px 40px rgba(20, 161, 159, 0.5)' }}
           >
