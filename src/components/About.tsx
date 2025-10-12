@@ -67,7 +67,7 @@ const About = () => {
 
         <div className="text-center mt-12">
           <a
-            href="https://chat.whatsapp.com/bgihackathon"
+            href="https://chat.whatsapp.com/CpVH0BWoD3s6ZlGwj5255f"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-3 bg-gradient-to-r from-[#25D366] to-[#128C7E] text-white rounded-lg font-semibold hover:scale-105 shadow-lg hover:shadow-[0_0_30px_rgba(37,211,102,0.5)] transition-all duration-300"
