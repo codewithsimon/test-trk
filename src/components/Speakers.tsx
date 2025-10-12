@@ -45,6 +45,13 @@ const Speakers = () => {
       bio: 'Senior Project Manager, researcher, and developer from Argentina with 20+ years in tech, media, and civic innovation. LatAm Community Lead for SingularityNET and the ASI Alliance, leading AI-driven governance frameworks for human-centered development.',
       image: '/WhatsApp Image 2025-10-10 at 12.49.22 AM.jpeg',
     },
+    {
+      name: 'Sam',
+      title: 'Wada.org',
+      role: 'Judge',
+      bio: 'Judge representing Wada.org, bringing expertise and insight to evaluate innovative solutions and emerging technologies.',
+      image: '/WhatsApp Image 2025-10-09 at 1.22.35 PM.jpeg',
+    },
   ];
 
   return (
