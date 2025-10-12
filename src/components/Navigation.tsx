@@ -11,6 +11,7 @@ const Navigation = ({ isMobileMenuOpen, setIsMobileMenuOpen }: NavigationProps) 
     { name: 'About', href: '#about' },
     { name: 'Tracks', href: '#tracks' },
     { name: 'Timeline', href: '#timeline' },
+    { name: 'Prize Pool', href: '#prizes' },
     { name: 'Judges', href: '#speakers' },
     { name: 'Schedule', href: '#schedule' },
   ];
