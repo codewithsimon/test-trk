@@ -42,7 +42,7 @@ const Navigation = ({ isMobileMenuOpen, setIsMobileMenuOpen }: NavigationProps) 
                 </a>
               ))}
               <a
-                href="https://luma.com/th1cr48f"
+                href="https://tally.so/r/wa7X6Z"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="ml-4 px-6 py-2 rounded-md text-sm font-medium bg-gradient-to-r from-[#14a19f] to-[#0d7775] text-white hover:glow-border hover:scale-105 transition-all duration-300 shadow-lg"
@@ -78,7 +78,7 @@ const Navigation = ({ isMobileMenuOpen, setIsMobileMenuOpen }: NavigationProps) 
               </a>
             ))}
             <a
-              href="https://luma.com/th1cr48f"
+              href="https://tally.so/r/wa7X6Z"
               target="_blank"
               rel="noopener noreferrer"
               onClick={handleNavClick}
