@@ -3,6 +3,13 @@ import { User } from 'lucide-react';
 const Speakers = () => {
   const speakers = [
     {
+      name: 'Dr. Ben Goertzel',
+      title: 'CEO of SingularityNET',
+      role: 'Judge',
+      bio: 'Ben Goertzel is a computer scientist, artificial intelligence researcher, and businessman. He helped popularize the term artificial general intelligence.',
+      image: '/image copy copy copy copy copy.png',
+    },
+    {
       name: 'Aarav Mehta',
       title: 'Founder, CodeAI Labs',
       role: 'Speaker',
