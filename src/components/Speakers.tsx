@@ -10,42 +10,6 @@ const Speakers = () => {
       image: '/image copy copy copy copy copy.png',
     },
     {
-      name: 'Aarav Mehta',
-      title: 'Founder, CodeAI Labs',
-      role: 'Speaker',
-      bio: 'Pioneer in AI-driven development tools with over 15 years of experience building intelligent systems for developers worldwide.',
-    },
-    {
-      name: 'Lisa Wong',
-      title: 'Data Scientist, GreenTech Analytics',
-      role: 'Judge',
-      bio: 'Leading expert in climate data modeling and sustainable technology solutions, passionate about leveraging data for environmental impact.',
-    },
-    {
-      name: 'David Kumar',
-      title: 'VP Engineering, PayFlow',
-      role: 'Speaker',
-      bio: 'Veteran in fintech innovation and digital payments, architecting secure payment systems serving millions of users globally.',
-    },
-    {
-      name: 'Nina Patel',
-      title: 'Researcher, OpenAI Community',
-      role: 'Judge',
-      bio: 'AI researcher focused on ethical AI development and machine learning applications that benefit society and advance human capabilities.',
-    },
-    {
-      name: 'Markus Bauer',
-      title: 'Dev Advocate, GitNova',
-      role: 'Speaker',
-      bio: 'Developer advocate passionate about open source, community building, and creating tools that empower developers to build better software.',
-    },
-    {
-      name: 'Sarah Oduro',
-      title: 'Product Lead, Cloud Innovate Africa',
-      role: 'Judge',
-      bio: 'Product visionary driving cloud adoption across Africa, dedicated to building scalable solutions for emerging markets and startups.',
-    },
-    {
       name: 'Guillermo Lucero',
       title: 'Senior Project Manager',
       role: 'Judge',
