@@ -6,9 +6,9 @@ const SupportedBy = () => {
       url: 'https://xragency.co',
     },
     {
-      name: 'HackIndia',
-      logo: '/HackIndia Black Logo.png',
-      url: 'https://hackindia.io',
+      name: 'Adamour',
+      logo: '/image copy copy copy copy copy copy.png',
+      url: 'https://adamour.com',
     },
     {
       name: 'iCog Labs',
