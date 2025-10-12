@@ -42,7 +42,7 @@ const Speakers = () => {
       name: 'Guillermo Lucero',
       title: 'Senior Project Manager',
       role: 'Judge',
-      bio: 'Experienced project manager specializing in strategic planning and execution of complex technical initiatives with a focus on innovation and team leadership.',
+      bio: 'Senior Project Manager, researcher, and developer from Argentina with 20+ years in tech, media, and civic innovation. LatAm Community Lead for SingularityNET and the ASI Alliance, leading AI-driven governance frameworks for human-centered development.',
       image: '/WhatsApp Image 2025-10-10 at 12.49.22 AM.jpeg',
     },
   ];
