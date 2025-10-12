@@ -20,6 +20,11 @@ const SupportedBy = () => {
       logo: '/Primary logo_black.png',
       url: 'https://fetch.ai',
     },
+    {
+      name: 'SingularityNET Latim',
+      logo: '/WhatsApp Image 2025-10-10 at 1.18.24 AM.jpeg',
+      url: 'https://singularitynet.io',
+    },
   ];
 
   return (
