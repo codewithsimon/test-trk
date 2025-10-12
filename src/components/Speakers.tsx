@@ -73,6 +73,13 @@ const Speakers = () => {
       bio: 'Head of AI Compute Product, leading the development of cutting-edge AI infrastructure and computational solutions.',
       image: '/WhatsApp Image 2025-10-07 at 8.49.46 PM.jpeg',
     },
+    {
+      name: 'Wendwossen Dufera',
+      title: 'Machine Learning Engineer',
+      role: 'Judge',
+      bio: 'Machine Learning Engineer bringing expertise in developing and deploying advanced ML models and AI solutions.',
+      image: '/image copy copy copy.png',
+    },
   ];
 
   return (
