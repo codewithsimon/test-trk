@@ -68,7 +68,7 @@ const Speakers = () => {
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold mb-4">Speakers & Judges</h2>
+          <h2 className="text-4xl sm:text-5xl font-bold mb-4">Judges</h2>
           <div className="w-24 h-1 bg-[#14a19f] mx-auto"></div>
         </div>
 
@@ -104,7 +104,7 @@ const Speakers = () => {
 
         <div className="text-center">
           <p className="text-lg text-gray-300 mb-6">
-            Interested in speaking or judging?
+            Interested in judging?
           </p>
           <a
             href="#contact"
