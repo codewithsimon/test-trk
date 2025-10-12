@@ -45,7 +45,7 @@ const Hero = () => {
                 <p className="text-lg sm:text-xl text-[#14a19f] font-semibold mt-1">2025</p>
               </div>
               <div className="text-center pt-6 md:pt-0 md:pl-6">
-                <p className="text-sm sm:text-base text-gray-400 uppercase tracking-wider mb-2">Register By</p>
+                <p className="text-sm sm:text-base text-gray-400 uppercase tracking-wider mb-2">Register</p>
                 <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
                   October 13
                 </p>
