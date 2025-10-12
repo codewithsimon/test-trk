@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Tracks from './components/Tracks';
 import Timeline from './components/Timeline';
+import Prizes from './components/Prizes';
 import Speakers from './components/Speakers';
 import Schedule from './components/Schedule';
 import PoweredBy from './components/PoweredBy';
@@ -23,6 +24,7 @@ function App() {
       <About />
       <Tracks />
       <Timeline />
+      <Prizes />
       <Speakers />
       <Schedule />
       <PoweredBy />
