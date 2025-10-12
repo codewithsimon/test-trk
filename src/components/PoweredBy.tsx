@@ -1,6 +1,11 @@
 const PoweredBy = () => {
   const partners = [
     {
+      name: 'Artificial Superintelligence Alliance',
+      logo: '/1724863913-asi-featured-removebg-preview.png',
+      url: 'https://asi.ai',
+    },
+    {
       name: 'BTC',
       logo: '/24_BTC-LogoBLCK (1).png',
       url: 'https://www.btc.com',
@@ -14,11 +19,6 @@ const PoweredBy = () => {
       name: 'Wada',
       logo: '/Wada-RGB_Logo-Full-Alternative-Color (1).png',
       url: 'https://www.wada.org',
-    },
-    {
-      name: 'XR Agency',
-      logo: '/24_Ci-XRAGENCYCO_blk.png',
-      url: 'https://xragency.co',
     },
   ];
 

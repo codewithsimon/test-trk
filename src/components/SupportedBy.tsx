@@ -1,9 +1,9 @@
 const SupportedBy = () => {
   const supporters = [
     {
-      name: 'Artificial Superintelligence Alliance',
-      logo: '/1724863913-asi-featured-removebg-preview.png',
-      url: 'https://asi.ai',
+      name: 'XR Agency',
+      logo: '/24_Ci-XRAGENCYCO_blk.png',
+      url: 'https://xragency.co',
     },
     {
       name: 'HackIndia',
