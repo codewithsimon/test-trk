@@ -66,6 +66,13 @@ const Speakers = () => {
       bio: 'Co-founder of Adamur BASIX Partners, driving innovation and strategic partnerships in the tech ecosystem.',
       image: '/image copy copy.png',
     },
+    {
+      name: 'Luke Gniwecki',
+      title: 'Head of AI Compute Product',
+      role: 'Judge',
+      bio: 'Head of AI Compute Product, leading the development of cutting-edge AI infrastructure and computational solutions.',
+      image: '/WhatsApp Image 2025-10-07 at 8.49.46 PM.jpeg',
+    },
   ];
 
   return (
