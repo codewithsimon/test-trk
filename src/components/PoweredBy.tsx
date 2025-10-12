@@ -6,14 +6,14 @@ const PoweredBy = () => {
       url: 'https://asi.ai',
     },
     {
-      name: 'BTC',
-      logo: '/24_BTC-LogoBLCK (1).png',
-      url: 'https://www.btc.com',
-    },
-    {
       name: 'SingularityNET',
       logo: '/SingularityNET.png',
       url: 'https://singularitynet.io',
+    },
+    {
+      name: 'BTC',
+      logo: '/24_BTC-LogoBLCK (1).png',
+      url: 'https://www.btc.com',
     },
     {
       name: 'Wada',
