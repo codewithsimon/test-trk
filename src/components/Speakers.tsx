@@ -64,7 +64,7 @@ const Speakers = () => {
       title: 'Founder, Adamur BASIX Partners',
       role: 'Judge',
       bio: 'Co-founder of Adamur BASIX Partners, driving innovation and strategic partnerships in the tech ecosystem.',
-      image: '/image.png',
+      image: '/image copy copy.png',
     },
   ];
 
