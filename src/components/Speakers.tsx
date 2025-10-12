@@ -52,6 +52,13 @@ const Speakers = () => {
       bio: 'Judge representing Wada.org, bringing expertise and insight to evaluate innovative solutions and emerging technologies.',
       image: '/WhatsApp Image 2025-10-09 at 1.22.35 PM.jpeg',
     },
+    {
+      name: 'Vincent',
+      title: 'Founder, Adamur BASIX Partners',
+      role: 'Judge',
+      bio: 'Founder of Adamur BASIX Partners, bringing entrepreneurial vision and strategic expertise to evaluate innovative ventures.',
+      image: '/image.png',
+    },
   ];
 
   return (
