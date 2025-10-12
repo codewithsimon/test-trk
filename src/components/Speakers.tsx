@@ -38,6 +38,13 @@ const Speakers = () => {
       role: 'Judge',
       bio: 'Product visionary driving cloud adoption across Africa, dedicated to building scalable solutions for emerging markets and startups.',
     },
+    {
+      name: 'Guillermo Lucero',
+      title: 'Senior Project Manager',
+      role: 'Judge',
+      bio: 'Experienced project manager specializing in strategic planning and execution of complex technical initiatives with a focus on innovation and team leadership.',
+      image: '/WhatsApp Image 2025-10-10 at 12.49.22 AM.jpeg',
+    },
   ];
 
   return (
@@ -59,8 +66,12 @@ const Speakers = () => {
               className="bg-gradient-to-br from-gray-800/80 to-gray-900/80 rounded-xl p-6 border-2 border-gray-700 hover:border-[#14a19f] card-shadow hover:card-shadow-hover hover:-translate-y-2 transition-all duration-300 group backdrop-blur-sm"
             >
               <div className="flex justify-center mb-4">
-                <div className="w-24 h-24 bg-gradient-to-br from-gray-700 to-gray-800 rounded-full flex items-center justify-center border-2 border-gray-600 group-hover:border-[#14a19f] group-hover:shadow-[0_0_30px_rgba(20,161,159,0.4)] transition-all duration-300">
-                  <User className="w-12 h-12 text-[#14a19f] group-hover:scale-110 transition-transform" />
+                <div className="w-24 h-24 bg-gradient-to-br from-gray-700 to-gray-800 rounded-full flex items-center justify-center border-2 border-gray-600 group-hover:border-[#14a19f] group-hover:shadow-[0_0_30px_rgba(20,161,159,0.4)] transition-all duration-300 overflow-hidden">
+                  {speaker.image ? (
+                    <img src={speaker.image} alt={speaker.name} className="w-full h-full object-cover" />
+                  ) : (
+                    <User className="w-12 h-12 text-[#14a19f] group-hover:scale-110 transition-transform" />
+                  )}
                 </div>
               </div>
 
