@@ -18,37 +18,37 @@ const Schedule = () => {
     },
     {
       day: 'Oct 16',
-      date: 'Wednesday',
+      date: 'Thursday',
       events: [
         { time: 'Async + 2 hrs live', title: 'Build + Technical Q&A Office Hours', icon: Code, description: 'LatAm Community Lead for SingularityNET and the ASI Alliance, 15:00- 17:00  CEST' },
       ],
     },
     {
       day: 'Oct 17',
-      date: 'Thursday',
+      date: 'Friday',
       events: [
         { time: '2 hrs live', title: 'Mid-week Feedback Roundtable', icon: MessageCircle, description: 'Luke Gniwecki -Head of Blockchain Al Compute Product  CUDOS (ASI Alliance)' },
       ],
     },
     {
       day: 'Oct 18',
-      date: 'Friday',
+      date: 'Saturday',
       events: [
-        { time: '1 hr live', title: 'Community Updates + Hype Check-in', icon: Users, description: 'David Taylor - CMO SNET 15 Mins' },
+        { time: '1 hr live', title: 'Community Updates + Hype Check-in', icon: Users, description: 'David Taylor - CMO ASI Alliance,25 Mins' },
       ],
     },
     {
       day: 'Oct 19',
-      date: 'Saturday',
+      date: 'Sunday',
       events: [
-        { time: '2–3 hrs live', title: 'Dry Run Pitches + Mentorship', icon: Presentation, description: 'Ibby Benali - Developer Relations & Ecosystem Marketing Lead at ASI Alliance' },
+        { time: '2–3 hrs live', title: 'Dry Run Pitches + Mentorship', icon: Presentation, description: 'Ibby Benali - Developer Relations & Ecosystem Marketing Lead at ASI Alliance, 25 Mins' },
       ],
     },
     {
       day: 'Oct 20',
-      date: 'Saturday',
+      date: 'Monday',
       events: [
-        { time: '2–3 hrs live', title: 'Dry Run Pitches + Mentorship', icon: Presentation, description: 'BTC Pitch Advice' },
+        { time: '2–3 hrs live', title: 'Dry Run Pitches + Mentorship', icon: Presentation, description: 'BTC Pitch Advice - Nefertity/Wada' },
       ],
     },
     {
