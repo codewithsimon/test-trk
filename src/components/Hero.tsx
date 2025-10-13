@@ -40,7 +40,7 @@ const Hero = () => {
               <div className="text-center pb-6 md:pb-0">
                 <p className="text-sm sm:text-base text-gray-400 uppercase tracking-wider mb-2">Hackathon Dates</p>
                 <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
-                  October 14-20
+                  October 14-25
                 </p>
                 <p className="text-lg sm:text-xl text-[#14a19f] font-semibold mt-1">2025</p>
               </div>
