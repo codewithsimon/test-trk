@@ -27,7 +27,7 @@ const SupportedBy = () => {
     },
     {
       name: 'Blockchain Centre',
-      logo: '/image copy copy copy copy copy copy copy.png',
+      logo: '/image-removebg-preview.png',
       url: '#',
     },
   ];
