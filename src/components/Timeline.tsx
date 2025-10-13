@@ -9,7 +9,7 @@ const Timeline = () => {
       icon: Rocket,
     },
     {
-      date: 'October 16',
+      date: 'October 17',
       title: 'Registration Closes 🕔',
       description: 'Last day to sign up and secure your spot in the competition.',
       icon: Clock,
@@ -31,6 +31,11 @@ const Timeline = () => {
       title: 'Live Finals (Hybrid) 🌍',
       description: 'BGI25 Un-Conference - Finalist teams present their projects live — hosted by  SingularityNet.io Wada & Beyondthecode  powered by BGI25hackathon ,Cudos, ASI, Fetch,BGI Nexus, LATAM .',
       icon: Globe,
+       {
+      date: 'October 25',
+      title: 'Winner Announcement',
+      description: 'Pre-recorded presentations from selected teams are played at the BGI Conference Istanbul, followed by the winner reveal,',
+      icon: Cup,
     },    
   ];
 
