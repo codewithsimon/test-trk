@@ -24,6 +24,13 @@ const Speakers = () => {
       image: '/WhatsApp Image 2025-10-10 at 12.49.22 AM.jpeg',
     },
     {
+      name: 'Nefertiti Angelica Strong',
+      title: 'Co-founder Beyond The Code and XR Agency',
+      role: 'Judge',
+      bio: 'Co-founder of Beyond The Code and XR Agency, pioneering the intersection of extended reality and innovative technology solutions. Passionate about bridging the digital divide and empowering communities through immersive technology experiences.',
+      image: '/5075937387623418765.jpg',
+    },
+    {
       name: 'Sam',
       title: 'Wada.org',
       role: 'Judge',
