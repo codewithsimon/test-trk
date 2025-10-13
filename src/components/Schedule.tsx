@@ -119,6 +119,16 @@ const Schedule = () => {
                     </div>
                   );
                 })}
+                {day.day === 'Oct 14' && (
+                  <a
+                    href="https://us06web.zoom.us/j/83342532145?pwd=snxNimEtPW316Yb7j6hqW36ZZqrx7w.1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 block w-full px-4 py-2 bg-gradient-to-r from-[#14a19f] to-[#0d7775] text-white text-center rounded-lg font-semibold hover:scale-105 shadow-lg hover:shadow-[0_0_30px_rgba(20,161,159,0.5)] transition-all duration-300"
+                  >
+                    Join Kickoff Session
+                  </a>
+                )}
               </div>
             </div>
           ))}
