@@ -66,6 +66,13 @@ const Speakers = () => {
       image: '/WhatsApp Image 2025-10-07 at 8.49.46 PM.jpeg',
     },
     {
+      name: 'Kshipra Dhame',
+      title: 'Senior Developer Advocate at Fetch.ai',
+      role: 'Judge',
+      bio: 'Senior Developer Advocate at Fetch.ai, empowering developers to build with AI and blockchain technology. Passionate about fostering innovation and growing the developer community in the decentralized AI ecosystem.',
+      image: '/WhatsApp Image 2025-10-07 at 9.14.27 PM.jpeg',
+    },
+    {
       name: 'Wendwossen Dufera',
       title: 'Machine Learning Engineer',
       role: 'Judge',
