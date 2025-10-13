@@ -74,14 +74,14 @@ const Speakers = () => {
     },
     {
       name: 'Wendwossen Dufera',
-      title: 'Machine Learning Engineer',
+      title: 'Machine Learning Engineer - ICog ',
       role: 'Judge',
       bio: 'Machine Learning Engineer bringing expertise in developing and deploying advanced ML models and AI solutions.',
       image: '/image copy copy copy.png',
     },
     {
       name: 'Nahom Senay',
-      title: 'Machine Learning Engineer',
+      title: 'Machine Learning Engineer - ICog ',
       role: 'Judge',
       bio: 'Machine Learning Engineer with deep expertise in ML model development, deployment, and innovative AI solutions.',
       image: '/image copy copy copy copy.png',
