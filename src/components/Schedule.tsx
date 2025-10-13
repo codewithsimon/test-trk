@@ -6,49 +6,63 @@ const Schedule = () => {
       day: 'Oct 14',
       date: 'Monday',
       events: [
-        { time: '4 hrs live (recorded)', title: 'Kickoff + Team Matching + Dev Stack Access', icon: Rocket },
+        { time: '4 hrs live (recorded)', title: 'Kickoff + Team Matching + Dev Stack Access', icon: Rocket, description: 'Cudos Compute Talk 15 Mins - $5000 In Compute' },
       ],
     },
     {
       day: 'Oct 15',
       date: 'Tuesday',
       events: [
-        { time: '4 hrs live', title: 'Track Deep Dive Sessions w/ Mentors', icon: Users },
+        { time: '4 hrs live', title: 'Track Deep Dive Sessions w/ Mentors', icon: Users, description: 'Adamur Talk 15 Mins' },
       ],
     },
     {
       day: 'Oct 16',
       date: 'Wednesday',
       events: [
-        { time: 'Async + 2 hrs live', title: 'Build + Technical Q&A Office Hours', icon: Code },
+        { time: 'Async + 2 hrs live', title: 'Build + Technical Q&A Office Hours', icon: Code, description: 'LatAm Community Lead for SingularityNET and the ASI Alliance, 15 Mins' },
       ],
     },
     {
       day: 'Oct 17',
       date: 'Thursday',
       events: [
-        { time: '2 hrs live', title: 'Mid-week Feedback Roundtable', icon: MessageCircle },
+        { time: '2 hrs live', title: 'Mid-week Feedback Roundtable', icon: MessageCircle, description: 'Wada Founders' },
       ],
     },
     {
       day: 'Oct 18',
       date: 'Friday',
       events: [
-        { time: '1 hr live', title: 'Community Updates + Hype Check-in', icon: Users },
+        { time: '1 hr live', title: 'Community Updates + Hype Check-in', icon: Users, description: 'David Taylor - CMO SNET 15 Mins' },
       ],
     },
     {
       day: 'Oct 19',
       date: 'Saturday',
       events: [
-        { time: '2–3 hrs live', title: 'Dry Run Pitches + Mentorship', icon: Presentation },
+        { time: '2–3 hrs live', title: 'Dry Run Pitches + Mentorship', icon: Presentation, description: 'BTC Pitch Advice' },
       ],
     },
     {
-      day: 'Oct 20',
-      date: 'Sunday',
+      day: 'Oct 22',
+      date: 'Wednesday',
       events: [
         { time: 'All day', title: 'Final Submission Deadline', icon: Trophy },
+      ],
+    },
+    {
+      day: 'Oct 23',
+      date: 'Thursday',
+      events: [
+        { time: '2 hrs', title: 'Finals Presentation', icon: Presentation, description: 'Via Istanbul Zoom' },
+      ],
+    },
+    {
+      day: 'Oct 25',
+      date: 'Saturday',
+      events: [
+        { time: '2 hrs', title: 'Winners Announced', icon: Trophy },
       ],
     },
   ];
@@ -90,6 +104,9 @@ const Schedule = () => {
                       <div>
                         <p className="text-sm text-[#14a19f] font-semibold">{event.time}</p>
                         <p className="text-gray-300">{event.title}</p>
+                        {event.description && (
+                          <p className="text-xs text-gray-400 mt-1">{event.description}</p>
+                        )}
                       </div>
                     </div>
                   );
