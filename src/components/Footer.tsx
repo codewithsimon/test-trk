@@ -11,6 +11,18 @@ const Footer = () => {
     { name: 'Schedule', href: '#schedule' },
   ];
 
+  const organizersAndPartners = [
+    { name: 'BGI', url: 'https://bgisummit.io' },
+    { name: 'ASI Alliance', url: 'https://superintelligence.io' },
+    { name: 'SingularityNET', url: 'https://singularitynet.io' },
+    { name: 'WADA', url: 'https://wada.org' },
+    { name: 'BeyondTheCode.ai', url: 'https://beyondthecode.ai' },
+    { name: 'XR Agency', url: 'https://xragency.co' },
+    { name: 'Blockchain Centre', url: 'https://blockchaincentrenbo.com' },
+    { name: 'Adamur', url: 'https://adamur.io' },
+    { name: 'Fetch.ai', url: 'https://fetch.ai' },
+  ];
+
   return (
     <footer className="bg-gradient-to-b from-black to-gray-950 border-t border-gray-800 relative">
       <div className="absolute inset-0 opacity-5">
@@ -42,6 +54,23 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+          </div>
+        </div>
+
+        <div className="pt-8 border-t border-gray-800 mb-8">
+          <h3 className="text-white font-semibold mb-4 text-center">Learn more about the organizers and partners:</h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            {organizersAndPartners.map((org) => (
+              <a
+                key={org.name}
+                href={org.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-[#14a19f] text-sm transition-colors text-center"
+              >
+                {org.name}
+              </a>
+            ))}
           </div>
         </div>
 
