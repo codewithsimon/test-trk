@@ -61,7 +61,7 @@ const Schedule = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">Hackathon Schedule</h2>
-          <p className="text-xl text-gray-400">7 days of learning, building, and innovation</p>
+          <p className="text-xl text-gray-400">Learn, Build, and Innovate</p>
           <div className="w-24 h-1 bg-[#14a19f] mx-auto mt-4"></div>
         </div>
 
