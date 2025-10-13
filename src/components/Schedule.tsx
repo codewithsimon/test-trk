@@ -6,7 +6,7 @@ const Schedule = () => {
       day: 'Oct 14',
       date: 'Monday',
       events: [
-        { time: '4 hrs live (recorded)', title: 'Kickoff + Team Matching + Dev Stack Access', icon: Rocket, description: 'Cudos Compute Talk 15 Mins - $5000 In Compute' },
+        { time: '4 hrs live (recorded)', title: 'Kickoff + Team Matching + Dev Stack Access', icon: Rocket, description: 'Wada & Beyondthecode.ai Founders Launch' },
       ],
     },
     {
