@@ -29,8 +29,9 @@ const Timeline = () => {
     {
       date: 'October 23',
       title: 'Live Finals (Hybrid) 🌍',
-      description: 'BGI25 Un-Conference - Finalist teams present their projects live — hosted by  SingularityNet.io Wada & Beyondthecode  powered by BGI25hackathon ,Cudos, ASI, Fetch,BGI Nexus, LATAM .',
+      description: 'BGI25 Un-Conference - Finalist teams present their projects live — hosted by  SingularityNet.io Wada & Beyondthecode  powered by BGI25hackathon ,Cudos, ASI, Fetch,BGI Nexus, LATAM.',
       icon: Globe,
+    },
        {
       date: 'October 25',
       title: 'Winner Announcement',
