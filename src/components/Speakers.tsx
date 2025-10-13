@@ -38,6 +38,13 @@ const Speakers = () => {
       image: '/WhatsApp Image 2025-10-09 at 1.22.35 PM.jpeg',
     },
     {
+      name: 'Saskia Betz',
+      title: 'Co-founder Beyond The Code and XR Agency',
+      role: 'Judge',
+      bio: 'Co-founder of Beyond The Code and XR Agency, driving innovation in extended reality and technology education. Dedicated to creating inclusive tech spaces and advancing immersive experiences that shape the future of digital interaction.',
+      image: '/Saskia Betz.jpg',
+    },
+    {
       name: 'Vincent',
       title: 'Founder, Adamur BASIX Partners',
       role: 'Judge',
