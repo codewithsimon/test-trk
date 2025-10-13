@@ -13,7 +13,7 @@ const Speakers = () => {
       name: 'Ibby Benali',
       title: 'ASI Dev Lead Science Technology and Engineering',
       role: 'Judge',
-      bio: '',
+      bio: 'ASI Dev Lead for Science, Technology, and Engineering, driving technical innovation and engineering excellence at the forefront of artificial superintelligence development.',
       image: '/WhatsApp Image 2025-10-13 at 12.24.40 PM.jpeg',
     },
     {
