@@ -23,7 +23,7 @@ const SupportedBy = () => {
     {
       name: 'BGI Nexus',
       logo: '/BGI_NEXUS_01_BLACK@2x-8.png',
-      url: '#',
+      url: 'https://bgicollective.singularitynet.io/',
     },
     {
       name: 'LATAM',
