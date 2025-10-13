@@ -41,6 +41,13 @@ const Schedule = () => {
       day: 'Oct 19',
       date: 'Saturday',
       events: [
+        { time: '2–3 hrs live', title: 'Dry Run Pitches + Mentorship', icon: Presentation, description: 'Ibby Benali - Developer Relations & Ecosystem Marketing Lead at ASI Alliance' },
+      ],
+    },
+    {
+      day: 'Oct 20',
+      date: 'Saturday',
+      events: [
         { time: '2–3 hrs live', title: 'Dry Run Pitches + Mentorship', icon: Presentation, description: 'BTC Pitch Advice' },
       ],
     },
