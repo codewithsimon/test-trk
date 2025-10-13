@@ -27,7 +27,7 @@ const Schedule = () => {
       day: 'Oct 17',
       date: 'Thursday',
       events: [
-        { time: '2 hrs live', title: 'Mid-week Feedback Roundtable', icon: MessageCircle, description: 'Wada Founders' },
+        { time: '2 hrs live', title: 'Mid-week Feedback Roundtable', icon: MessageCircle, description: 'Luke Gniwecki -Head of Blockchain Al Compute Product  CUDOS (ASI Alliance)' },
       ],
     },
     {
