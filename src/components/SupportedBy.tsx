@@ -21,6 +21,11 @@ const SupportedBy = () => {
       url: 'https://fetch.ai',
     },
     {
+      name: 'BGI Nexus',
+      logo: '/BGI_NEXUS_01_BLACK@2x-8.png',
+      url: '#',
+    },
+    {
       name: 'LATAM',
       logo: '/WhatsApp_Image_2025-10-10_at_1.18.24_AM-removebg-preview copy.png',
       url: '#',
