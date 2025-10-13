@@ -10,6 +10,13 @@ const Speakers = () => {
       image: '/image copy copy copy copy copy.png',
     },
     {
+      name: 'Ibby Benali',
+      title: 'ASI Dev Lead Science Technology and Engineering',
+      role: 'Judge',
+      bio: '',
+      image: '/WhatsApp Image 2025-10-13 at 12.24.40 PM.jpeg',
+    },
+    {
       name: 'Guillermo Lucero',
       title: 'Senior Project Manager',
       role: 'Judge',
@@ -96,7 +103,7 @@ const Speakers = () => {
                 <span className="inline-block px-3 py-1 bg-[#14a19f]/20 text-[#14a19f] text-xs font-semibold rounded-full mb-3">
                   {speaker.role}
                 </span>
-                <p className="text-sm text-gray-400 leading-relaxed">{speaker.bio}</p>
+                {speaker.bio && <p className="text-sm text-gray-400 leading-relaxed">{speaker.bio}</p>}
               </div>
             </div>
           ))}
