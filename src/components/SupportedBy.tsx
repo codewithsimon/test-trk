@@ -25,6 +25,11 @@ const SupportedBy = () => {
       logo: '/WhatsApp_Image_2025-10-10_at_1.18.24_AM-removebg-preview copy.png',
       url: '#',
     },
+    {
+      name: 'Blockchain Centre',
+      logo: '/image copy copy copy copy copy copy copy.png',
+      url: '#',
+    },
   ];
 
   return (
