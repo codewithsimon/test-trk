@@ -22,7 +22,7 @@ const SupportedBy = () => {
     },
     {
       name: 'LATAM',
-      logo: '/WhatsApp Image 2025-10-10 at 1.18.24 AM copy.jpeg',
+      logo: '/WhatsApp_Image_2025-10-10_at_1.18.24_AM-removebg-preview copy.png',
       url: '#',
     },
   ];
