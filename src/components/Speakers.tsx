@@ -102,17 +102,6 @@ const Speakers = () => {
           ))}
         </div>
 
-        <div className="text-center">
-          <p className="text-lg text-gray-300 mb-6">
-            Interested in judging?
-          </p>
-          <a
-            href="#contact"
-            className="inline-block px-8 py-3 border-2 border-[#14a19f] text-[#14a19f] rounded-lg font-semibold hover:bg-gradient-to-r hover:from-[#14a19f] hover:to-[#0d7775] hover:text-white hover:scale-105 transition-all duration-300 shadow-lg"
-          >
-            Contact Us
-          </a>
-        </div>
       </div>
     </section>
   );
