@@ -8,7 +8,7 @@ const SupportedBy = () => {
     {
       name: 'Adamour',
       logo: '/image copy copy copy copy copy copy.png',
-      url: 'https://adamour.com',
+      url: 'https://adamour.io',
     },
     {
       name: 'iCog Labs',
