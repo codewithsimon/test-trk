@@ -21,6 +21,7 @@ const Footer = () => {
     { name: 'Blockchain Centre', url: 'https://blockchaincentrenbo.com' },
     { name: 'Adamur', url: 'https://adamur.io' },
     { name: 'Fetch.ai', url: 'https://fetch.ai' },
+    { name: 'BGI Nexus', url: 'https://bgicollective.singularitynet.io/' },
   ];
 
   return (
