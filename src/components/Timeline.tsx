@@ -34,7 +34,7 @@ const Timeline = () => {
     },
        {
       date: 'October 25',
-      title: 'Winner Announcement',
+      title: 'Winner Announcement 🏆',
       description: 'Pre-recorded presentations from selected teams are played at the BGI Conference Istanbul, followed by the winner reveal,',
       icon: Globe,
     },    
