@@ -11,6 +11,11 @@ const PoweredBy = () => {
       url: 'https://singularitynet.io',
     },
     {
+      name: 'Cudos',
+      logo: '/image (8).png',
+      url: 'https://www.cudos.org',
+    },
+    {
       name: 'BTC',
       logo: '/24_BTC-LogoBLCK (1).png',
       url: 'https://www.btc.com',
