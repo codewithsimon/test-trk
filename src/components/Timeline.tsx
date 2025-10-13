@@ -3,19 +3,19 @@ import { Rocket, Clock, Code, Video, Globe, Trophy } from 'lucide-react';
 const Timeline = () => {
   const events = [
     {
-      date: 'October 9',
+      date: 'October 14',
       title: 'Launch Day 🚀',
       description: 'Registrations officially open! The BGI Hackathon 2025 journey begins.',
       icon: Rocket,
     },
     {
-      date: 'October 13',
+      date: 'October 16',
       title: 'Registration Closes 🕔',
       description: 'Last day to sign up and secure your spot in the competition.',
       icon: Clock,
     },
     {
-      date: 'October 14–20',
+      date: 'October 14–25',
       title: 'Hackathon Week 💻',
       description: 'It\'s go time! Participants collaborate, code, and innovate throughout the week.',
       icon: Code,
@@ -34,8 +34,8 @@ const Timeline = () => {
     },
     {
       date: 'October 23',
-      title: 'Conference Showcase & Winner Announcement 🏆',
-      description: 'Pre-recorded presentations from selected teams are played at the BGI Conference Istanbul, followed by the winner reveal!',
+      title: 'BGI25 Un-Conference',
+      description: 'Finalist teams present their projects live — hosted by  SingularityNet.io Wada & Beyondthecode  powered by   BGI25hackathon ,Cudos, ASI, Fetch,BGI Nexus, LATAM .',
       icon: Trophy,
     },
   ];
