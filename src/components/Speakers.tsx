@@ -31,7 +31,7 @@ const Speakers = () => {
       image: '/5075937387623418765.jpg',
     },
     {
-      name: 'Sam',
+      name: 'Kobi Sam',
       title: 'Wada.org',
       role: 'Judge',
       bio: 'Judge representing Wada.org, bringing expertise and insight to evaluate innovative solutions and emerging technologies.',
@@ -45,14 +45,14 @@ const Speakers = () => {
       image: '/Saskia Betz.jpg',
     },
     {
-      name: 'Vincent',
+      name: 'Vincent Sipoi',
       title: 'Founder, Adamur BASIX Partners',
       role: 'Judge',
       bio: 'Founder of Adamur BASIX Partners, bringing entrepreneurial vision and strategic expertise to evaluate innovative ventures.',
       image: '/image.png',
     },
     {
-      name: 'Janie',
+      name: 'Janie Wangari',
       title: 'Founder, Adamur BASIX Partners',
       role: 'Judge',
       bio: 'Co-founder of Adamur BASIX Partners, driving innovation and strategic partnerships in the tech ecosystem.',
