@@ -16,6 +16,11 @@ const PoweredBy = () => {
       url: 'https://www.cudos.org',
     },
     {
+      name: 'Fetch.ai',
+      logo: '/Primary logo_black.png',
+      url: 'https://fetch.ai',
+    },
+    {
       name: 'BTC',
       logo: '/24_BTC-LogoBLCK (1).png',
       url: 'https://www.btc.com',

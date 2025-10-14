@@ -16,11 +16,6 @@ const SupportedBy = () => {
       url: 'https://icog-labs.com',
     },
     {
-      name: 'Fetch.ai',
-      logo: '/Primary logo_black.png',
-      url: 'https://fetch.ai',
-    },
-    {
       name: 'BGI Nexus',
       logo: '/BGI_NEXUS_01_BLACK@2x-8.png',
       url: 'https://bgicollective.singularitynet.io/',
