@@ -35,6 +35,11 @@ const SupportedBy = () => {
       logo: '/image-removebg-preview.png',
       url: '#',
     },
+    {
+      name: 'Ambassador Program',
+      logo: '/image-removebg-preview copy.png',
+      url: '#',
+    },
   ];
 
   return (
