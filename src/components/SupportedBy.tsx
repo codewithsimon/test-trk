@@ -33,7 +33,7 @@ const SupportedBy = () => {
     {
       name: 'Ambassador Program',
       logo: '/image-removebg-preview copy.png',
-      url: '#',
+      url: 'http://ambassadors.singularitynet.io/',
     },
   ];
 
