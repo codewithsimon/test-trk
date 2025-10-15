@@ -45,7 +45,7 @@ const Prizes = () => {
                 </div>
                 <div>
                   <h3 className="text-3xl font-bold text-white mb-1">$5,000</h3>
-                  <p className="text-gray-300">Cudos Compute Credits for Developers</p>
+                  <p className="text-gray-300">ASI:Cloud AI Inference Credit for Developers</p>
                 </div>
               </div>
               <div className="text-center md:text-right">
