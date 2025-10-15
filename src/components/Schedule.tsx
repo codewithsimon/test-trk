@@ -13,7 +13,7 @@ const Schedule = () => {
       day: 'Oct 15',
       date: 'Wednesday',
       events: [
-        { time: '4 hrs live', title: 'Track Deep Dive Sessions w/ Mentors', icon: Users, description: 'Adamur Talk 25 Mins' },
+        { time: '4 hrs live', title: 'Track Deep Dive Sessions w/ Mentors', icon: Users, description: '15:00-17:00 CEST | Adamur Talk 25 Mins' },
       ],
     },
     {
