@@ -6,21 +6,21 @@ const Schedule = () => {
       day: 'Oct 14',
       date: 'Tuesday',
       events: [
-        { time: '4 hrs live (recorded)', title: 'Kickoff + Team Matching + Dev Stack Access Cudos Wada + BTC | $5000 In Compute', icon: Rocket,        description: '15:00- 17:00 CEST ' },
+        { time: '2 hrs live (recorded)', title: 'Kickoff + Team Matching + Dev Stack Access Cudos Wada + BTC | $5000 In Compute', icon: Rocket,        description: '15:00- 17:00 CEST ' },
       ],
     },
     {
       day: 'Oct 15',
       date: 'Wednesday',
       events: [
-        { time: '4 hrs live', title: 'Track Deep Dive Sessions w/ Mentors', icon: Users, description: '15:00-17:00 CEST | Adamur Talk 25 Mins' },
+        { time: '1 hr live', title: 'Track Deep Dive Sessions w/ Mentors', icon: Users, description: '15:00-16:00 CEST | Adamur Talk 25 Mins' },
       ],
     },
     {
       day: 'Oct 16',
       date: 'Thursday',
       events: [
-        { time: 'Async + 2 hrs live', title: 'Build + Technical Q&A Office Hours', icon: Code, description: 'LatAm Community Lead for SingularityNET and the ASI Alliance, 15:00- 17:00  CEST' },
+        { time: 'Async + 1 hrs live', title: 'Build + Technical Q&A Office Hours', icon: Code, description: 'LatAm Community Lead for SingularityNET and the ASI Alliance, 15:00- 16:00  CEST' },
       ],
     },
     {
