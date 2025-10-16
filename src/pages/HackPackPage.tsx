@@ -196,6 +196,80 @@ if __name__ == "__main__":
 
         <section className="mb-16">
           <div className="flex items-center mb-8">
+            <Video className="w-8 h-8 text-[#14a19f] mr-3" />
+            <h2 className="text-3xl font-bold">MeTTa Tutorial by Beyond the Code</h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-4">
+              <h3 className="text-lg font-semibold text-white mb-4">MeTTa LANGUAGE - Get Started</h3>
+              <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg">
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/Hp28F9gL2Cc"
+                  title="MeTTa LANGUAGE - Get Started"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+
+            <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-4">
+              <h3 className="text-lg font-semibold text-white mb-4">MeTTa LANGUAGE - Knowledge Representation + Function Definition</h3>
+              <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg">
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/NhJtiqQxAA8"
+                  title="MeTTa LANGUAGE - Knowledge Representation + Function Definition"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+
+            <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-4">
+              <h3 className="text-lg font-semibold text-white mb-4">MeTTa LANGUAGE - Python Integration</h3>
+              <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg">
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/fZPVlJD-9X4"
+                  title="MeTTa LANGUAGE - Python Integration"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+
+            <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-4">
+              <h3 className="text-lg font-semibold text-white mb-4">MeTTa Working With Spaces + Control Flow</h3>
+              <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg">
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/_j5MtFRmYAc"
+                  title="MeTTa Working With Spaces + Control Flow"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+
+            <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-4">
+              <h3 className="text-lg font-semibold text-white mb-4">MeTTa Console Output + Debugging</h3>
+              <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg">
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/3zBF8s--9kQ"
+                  title="MeTTa Console Output + Debugging"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="mb-16">
+          <div className="flex items-center mb-8">
             <BookOpen className="w-8 h-8 text-[#14a19f] mr-3" />
             <h2 className="text-3xl font-bold">Documentation</h2>
           </div>
