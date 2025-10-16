@@ -1,4 +1,4 @@
-import { BookOpen, ExternalLink, ArrowLeft } from 'lucide-react';
+import { BookOpen, ExternalLink, ArrowLeft, Gift } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const HackPackPage = () => {
@@ -43,6 +43,38 @@ const HackPackPage = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <section className="mb-16">
+          <div className="flex items-center mb-8">
+            <Gift className="w-8 h-8 text-[#14a19f] mr-3" />
+            <h2 className="text-3xl font-bold">Free Credits</h2>
+          </div>
+
+          <div className="p-8 bg-gradient-to-br from-[#14a19f]/10 to-[#0d7775]/10 border-2 border-[#14a19f]/30 rounded-lg">
+            <div className="flex items-start">
+              <div className="flex-shrink-0 mr-6">
+                <div className="w-20 h-20 bg-gradient-to-br from-[#14a19f] to-[#0d7775] rounded-full flex items-center justify-center text-3xl font-bold">
+                  $20
+                </div>
+              </div>
+              <div className="flex-1">
+                <h3 className="text-2xl font-bold text-white mb-3">ASI:Cloud AI Inference Credits</h3>
+                <p className="text-gray-300 mb-6">
+                  Every hackathon participant receives <span className="text-[#14a19f] font-semibold">$20 worth of AI inference credits</span> on ASI:Cloud.
+                  Use these credits to power your projects with cutting-edge AI models, run experiments, and bring your ideas to life without worrying about costs.
+                </p>
+                <a
+                  href="#"
+                  className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#14a19f] to-[#0d7775] text-white font-semibold rounded-lg hover:scale-105 shadow-lg hover:shadow-[0_0_30px_rgba(20,161,159,0.5)] transition-all duration-300 group"
+                >
+                  Claim Your Credits
+                  <ExternalLink className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                </a>
+                <p className="text-sm text-gray-400 mt-3">Form link will be available soon</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="mb-16">
           <div className="flex items-center mb-8">
             <BookOpen className="w-8 h-8 text-[#14a19f] mr-3" />
