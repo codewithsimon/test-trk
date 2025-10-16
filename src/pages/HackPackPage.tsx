@@ -88,6 +88,18 @@ const HackPackPage = () => {
         </section>
 
         <section className="mb-16">
+          <h2 className="text-3xl font-bold mb-8">Tool Stack</h2>
+
+          <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-8">
+            <img
+              src="/image copy copy copy copy copy copy copy copy copy.png"
+              alt="Tool Stack - Build, Connect, Deploy, Test, Discover"
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
+        </section>
+
+        <section className="mb-16">
           <div className="flex items-center mb-8">
             <BookOpen className="w-8 h-8 text-[#14a19f] mr-3" />
             <h2 className="text-3xl font-bold">Documentation</h2>
