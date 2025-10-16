@@ -1,4 +1,4 @@
-import { BookOpen, ExternalLink, ArrowLeft, Gift } from 'lucide-react';
+import { BookOpen, ExternalLink, ArrowLeft, Gift, Code } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const HackPackPage = () => {
@@ -96,6 +96,58 @@ const HackPackPage = () => {
               alt="Tool Stack - Build, Connect, Deploy, Test, Discover"
               className="w-full h-auto rounded-lg"
             />
+          </div>
+        </section>
+
+        <section className="mb-16">
+          <div className="flex items-center mb-8">
+            <Code className="w-8 h-8 text-[#14a19f] mr-3" />
+            <h2 className="text-3xl font-bold">Quick Start Example</h2>
+          </div>
+
+          <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-6">
+            <p className="text-gray-300 mb-4">
+              This file can be run on any platform supporting Python, with the necessary install permissions. This example shows two agents communicating with each other using the uAgent python library.
+            </p>
+            <a
+              href="https://innovationlab.fetch.ai/resources/docs/agent-communication/uagent-uagent-communication?_gl=1*1hqw5yk*_ga*MzU4ODA3Mjk2LjE3NTk4MTY1MzU.*_ga_0C55J9N0FX*czE3NjA1OTA4MzIkbzQkZzEkdDE3NjA1OTEyNjgkajQ3JGwwJGgw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center text-[#14a19f] hover:text-[#0d7775] transition-colors text-sm font-medium mb-6"
+            >
+              Read the guide for this code here
+              <ExternalLink className="w-4 h-4 ml-2" />
+            </a>
+
+            <div className="bg-gray-900 border border-gray-700 rounded-lg p-6 overflow-x-auto">
+              <pre className="text-sm text-gray-300 font-mono">
+                <code>{`from uagents import Agent, Bureau, Context, Model
+class Message(Model):
+    message: str
+
+sigmar = Agent(name="sigmar", seed="sigmar recovery phrase")
+slaanesh = Agent(name="slaanesh", seed="slaanesh recovery phrase")
+
+@sigmar.on_interval(period=3.0)
+async def send_message(ctx: Context):
+   await ctx.send(slaanesh.address, Message(message="hello there slaanesh"))
+
+@sigmar.on_message(model=Message)
+async def sigmar_message_handler(ctx: Context, sender: str, msg: Message):
+    ctx.logger.info(f"Received message from {sender}: {msg.message}")
+
+@slaanesh.on_message(model=Message)
+async def slaanesh_message_handler(ctx: Context, sender: str, msg: Message):
+    ctx.logger.info(f"Received message from {sender}: {msg.message}")
+    await ctx.send(sigmar.address, Message(message="hello there sigmar"))
+
+bureau = Bureau()
+bureau.add(sigmar)
+bureau.add(slaanesh)
+if __name__ == "__main__":
+    bureau.run()`}</code>
+              </pre>
+            </div>
           </div>
         </section>
 
