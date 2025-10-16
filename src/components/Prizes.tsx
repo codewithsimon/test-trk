@@ -1,4 +1,5 @@
-import { Trophy, DollarSign, Calendar, Award } from 'lucide-react';
+import { Trophy, DollarSign, Calendar, Award, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Prizes = () => {
   const prizeCategories = [
@@ -49,8 +50,15 @@ const Prizes = () => {
                 </div>
               </div>
               <div className="text-center md:text-right">
-                <p className="text-lg font-semibold text-[#14a19f]">Special Developer Bonus</p>
-                <p className="text-sm text-gray-400">Build on cutting-edge infrastructure</p>
+                <p className="text-lg font-semibold text-[#14a19f] mb-2">Special Developer Bonus</p>
+                <p className="text-sm text-gray-400 mb-4">Build on cutting-edge infrastructure</p>
+                <Link
+                  to="/hackpack"
+                  className="inline-flex items-center px-5 py-2.5 bg-gradient-to-r from-[#14a19f] to-[#0d7775] text-white text-sm font-semibold rounded-lg hover:scale-105 shadow-lg hover:shadow-[0_0_30px_rgba(20,161,159,0.5)] transition-all duration-300 group"
+                >
+                  Claim Your Credits Here
+                  <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                </Link>
               </div>
             </div>
           </div>
