@@ -82,13 +82,14 @@ const HackPackPage = () => {
                   Use these credits to power your projects with cutting-edge AI models, run experiments, and bring your ideas to life without worrying about costs.
                 </p>
                 <a
-                  href="#"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdhXzs3B6_1Y-1QzLT7MD0gzJutm3Gk8J5papd2Jw7OlnzUmg/viewform?usp=dialog"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#14a19f] to-[#0d7775] text-white font-semibold rounded-lg hover:scale-105 shadow-lg hover:shadow-[0_0_30px_rgba(20,161,159,0.5)] transition-all duration-300 group"
                 >
                   Claim Your Credits
                   <ExternalLink className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </a>
-                <p className="text-sm text-gray-400 mt-3">Form link will be available soon</p>
               </div>
             </div>
           </div>
