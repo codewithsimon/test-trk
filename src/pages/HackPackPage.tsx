@@ -1,7 +1,26 @@
-import { BookOpen, ExternalLink, ArrowLeft, Gift, Code } from 'lucide-react';
+import { BookOpen, ExternalLink, ArrowLeft, Gift, Code, Video } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const HackPackPage = () => {
+  const videoTutorials = [
+    {
+      title: 'Tutorial 01: An Introduction to Agents',
+      videoId: 'P69TLQ-K3mk',
+    },
+    {
+      title: 'Tutorial 02: On Interval',
+      videoId: 'NzFoO3Tei74',
+    },
+    {
+      title: 'Tutorial 03: On Event',
+      videoId: 'lyp00lzKQZQ',
+    },
+    {
+      title: 'Tutorial 04: Agent Messages',
+      videoId: 'e_x-rItb4sk',
+    },
+  ];
+
   const documentationLinks = [
     {
       title: 'MeTTa Language',
@@ -148,6 +167,30 @@ if __name__ == "__main__":
     bureau.run()`}</code>
               </pre>
             </div>
+          </div>
+        </section>
+
+        <section className="mb-16">
+          <div className="flex items-center mb-8">
+            <Video className="w-8 h-8 text-[#14a19f] mr-3" />
+            <h2 className="text-3xl font-bold">Video Guides</h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {videoTutorials.map((video, index) => (
+              <div key={index} className="bg-gray-800/50 border border-gray-700 rounded-lg p-4">
+                <h3 className="text-lg font-semibold text-white mb-4">{video.title}</h3>
+                <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg">
+                  <iframe
+                    className="absolute top-0 left-0 w-full h-full"
+                    src={`https://www.youtube.com/embed/${video.videoId}`}
+                    title={video.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+              </div>
+            ))}
           </div>
         </section>
 
