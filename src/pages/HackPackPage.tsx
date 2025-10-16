@@ -1,0 +1,85 @@
+import { BookOpen, ExternalLink, ArrowLeft } from 'lucide-react';
+import { Link } from 'react-router-dom';
+
+const HackPackPage = () => {
+  const documentationLinks = [
+    {
+      title: 'MeTTa Language',
+      url: 'https://metta-lang.dev/',
+      description: 'Explore MeTTa, a powerful meta-language for AI and knowledge representation. Learn how to build intelligent systems using this innovative programming paradigm designed for symbolic reasoning and neural-symbolic integration.',
+      icon: '🧠',
+    },
+    {
+      title: 'Agentverse Documentation',
+      url: 'https://docs.agentverse.ai/home',
+      description: 'Discover Agentverse, the platform for building and deploying autonomous AI agents. Access comprehensive guides on agent creation, communication protocols, and decentralized agent networks.',
+      icon: '🤖',
+    },
+    {
+      title: 'ASI Alliance Documentation',
+      url: 'https://docs.asi1.ai/documentation/getting-started/overview',
+      description: 'Get started with the ASI Alliance ecosystem. Learn about the foundational technologies powering artificial superintelligence, including APIs, SDKs, and integration guides for building next-generation AI applications.',
+      icon: '🌐',
+    },
+  ];
+
+  return (
+    <div className="min-h-screen bg-gray-900 text-gray-100">
+      <div className="bg-gradient-to-b from-gray-800 to-gray-900 border-b border-gray-700">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <Link
+            to="/"
+            className="inline-flex items-center text-[#14a19f] hover:text-[#0d7775] transition-colors mb-6"
+          >
+            <ArrowLeft className="w-5 h-5 mr-2" />
+            Back to Home
+          </Link>
+
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4">Hack Pack</h1>
+          <p className="text-xl text-gray-300 max-w-3xl">
+            Your complete resource hub for the hackathon. Everything you need to build amazing projects.
+          </p>
+        </div>
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <section className="mb-16">
+          <div className="flex items-center mb-8">
+            <BookOpen className="w-8 h-8 text-[#14a19f] mr-3" />
+            <h2 className="text-3xl font-bold">Documentation</h2>
+          </div>
+
+          <div className="grid gap-6">
+            {documentationLinks.map((doc, index) => (
+              <a
+                key={index}
+                href={doc.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group p-6 bg-gray-800/50 border border-gray-700 rounded-lg hover:border-[#14a19f]/50 hover:bg-gray-800 transition-all duration-300"
+              >
+                <div className="flex items-start justify-between">
+                  <div className="flex-1">
+                    <div className="flex items-center mb-3">
+                      <span className="text-3xl mr-3">{doc.icon}</span>
+                      <h3 className="text-xl font-semibold text-white group-hover:text-[#14a19f] transition-colors">
+                        {doc.title}
+                      </h3>
+                    </div>
+                    <p className="text-gray-400 mb-3">{doc.description}</p>
+                    <div className="flex items-center text-[#14a19f] text-sm font-medium">
+                      Visit Documentation
+                      <ExternalLink className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </div>
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      </div>
+    </div>
+  );
+};
+
+export default HackPackPage;
