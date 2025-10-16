@@ -133,14 +133,17 @@ const Schedule = () => {
                   </div>
                 )}
                 {day.day === 'Oct 15' && (
-                  <a
-                    href="https://us06web.zoom.us/j/87260893791?pwd=v8AiM8yp1YeVSIusJutUbVGXsRLagL.1"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-4 block w-full px-4 py-2 bg-gradient-to-r from-[#14a19f] to-[#0d7775] text-white text-center rounded-lg font-semibold hover:scale-105 shadow-lg hover:shadow-[0_0_30px_rgba(20,161,159,0.5)] transition-all duration-300"
-                  >
-                    Join the Session
-                  </a>
+                  <div className="mt-4">
+                    <a
+                      href="https://us06web.zoom.us/rec/share/j7d0m1jkELa9B-rakB5UVcR-a-C6gMQ455bigF49xZJC4bTv71Mmu6PrSWHHVkW9.apy7xKgEL3JzrWgB"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block w-full px-4 py-2 bg-gray-700/50 border border-gray-600 text-gray-300 text-center rounded-lg font-semibold hover:bg-gray-600/50 hover:border-gray-500 transition-all duration-300"
+                    >
+                      Watch the Recording
+                    </a>
+                    <p className="text-xs text-gray-400 mt-2 text-center">Passcode is in the WhatsApp Community</p>
+                  </div>
                 )}
               </div>
             </div>
