@@ -7,6 +7,7 @@ import Timeline from './components/Timeline';
 import Prizes from './components/Prizes';
 import Speakers from './components/Speakers';
 import Schedule from './components/Schedule';
+import HackPack from './components/HackPack';
 import PoweredBy from './components/PoweredBy';
 import SupportedBy from './components/SupportedBy';
 import Footer from './components/Footer';
@@ -27,6 +28,7 @@ function App() {
       <Prizes />
       <Speakers />
       <Schedule />
+      <HackPack />
       <PoweredBy />
       <SupportedBy />
       <Footer />
