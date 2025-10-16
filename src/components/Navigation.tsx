@@ -1,4 +1,5 @@
 import { Menu, X, Zap } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 interface NavigationProps {
   isMobileMenuOpen: boolean;
@@ -14,6 +15,7 @@ const Navigation = ({ isMobileMenuOpen, setIsMobileMenuOpen }: NavigationProps) 
     { name: 'Prize Pool', href: '#prizes' },
     { name: 'Judges', href: '#speakers' },
     { name: 'Schedule', href: '#schedule' },
+    { name: 'Hack Pack', href: '/hackpack', isRoute: true },
   ];
 
   const handleNavClick = () => {
@@ -34,13 +36,23 @@ const Navigation = ({ isMobileMenuOpen, setIsMobileMenuOpen }: NavigationProps) 
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-4">
               {navLinks.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  className="text-gray-300 hover:text-[#14a19f] px-3 py-2 rounded-md text-sm font-medium transition-colors"
-                >
-                  {link.name}
-                </a>
+                link.isRoute ? (
+                  <Link
+                    key={link.name}
+                    to={link.href}
+                    className="text-gray-300 hover:text-[#14a19f] px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                  >
+                    {link.name}
+                  </Link>
+                ) : (
+                  <a
+                    key={link.name}
+                    href={link.href}
+                    className="text-gray-300 hover:text-[#14a19f] px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                  >
+                    {link.name}
+                  </a>
+                )
               ))}
               <a
                 href="https://tally.so/r/wa7X6Z"
@@ -69,14 +81,25 @@ const Navigation = ({ isMobileMenuOpen, setIsMobileMenuOpen }: NavigationProps) 
         <div className="md:hidden bg-gray-900/95 backdrop-blur-md border-t border-gray-800">
           <div className="px-2 pt-2 pb-3 space-y-1">
             {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                onClick={handleNavClick}
-                className="block text-gray-300 hover:text-[#14a19f] px-3 py-2 rounded-md text-base font-medium transition-colors"
-              >
-                {link.name}
-              </a>
+              link.isRoute ? (
+                <Link
+                  key={link.name}
+                  to={link.href}
+                  onClick={handleNavClick}
+                  className="block text-gray-300 hover:text-[#14a19f] px-3 py-2 rounded-md text-base font-medium transition-colors"
+                >
+                  {link.name}
+                </Link>
+              ) : (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  onClick={handleNavClick}
+                  className="block text-gray-300 hover:text-[#14a19f] px-3 py-2 rounded-md text-base font-medium transition-colors"
+                >
+                  {link.name}
+                </a>
+              )
             ))}
             <a
               href="https://tally.so/r/wa7X6Z"
