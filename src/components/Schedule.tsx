@@ -20,7 +20,7 @@ const Schedule = () => {
       day: 'Oct 16',
       date: 'Thursday',
       events: [
-        { time: 'Async + 1 hrs live', title: 'Build + Technical Q&A Office Hours', icon: Code, description: 'LatAm Community Lead for SingularityNET and the ASI Alliance, 15:00- 16:00  CEST' },
+        { time: 'Async + 1 hrs live', title: '15:00- 16:00  CEST | Build + Technical Q&A Office Hours', icon: Code, description: 'LatAm Community Lead for SingularityNET and the ASI Alliance' },
       ],
     },
     {
