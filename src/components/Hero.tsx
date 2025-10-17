@@ -47,7 +47,7 @@ const Hero = () => {
               <div className="text-center pt-6 md:pt-0 md:pl-6">
                 <p className="text-sm sm:text-base text-gray-400 uppercase tracking-wider mb-2">Register</p>
                 <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
-                  October 14
+                  October 20
                 </p>
                 <p className="text-lg sm:text-xl text-red-400 font-semibold mt-1 animate-pulse">Don't miss out!</p>
               </div>
