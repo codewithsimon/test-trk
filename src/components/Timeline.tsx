@@ -9,7 +9,7 @@ const Timeline = () => {
       icon: Rocket,
     },
     {
-      date: 'October 17',
+      date: 'October 20',
       title: 'Registration Closes 🕔',
       description: 'Last day to sign up and secure your spot in the competition.',
       icon: Clock,
