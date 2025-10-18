@@ -34,7 +34,7 @@ const Schedule = () => {
       day: 'Oct 18',
       date: 'Saturday',
       events: [
-        { time: '1 hr live', title: 'Community Updates + Hype Check-in', icon: Users, description: 'David Taylor - CMO ASI Alliance,25 Mins' },
+        { time: 'All Day', title: 'WhatsApp Team Building + Hype Check-in', icon: Users, description: 'Please use the WhatsApp Community to form teams' },
       ],
     },
     {
