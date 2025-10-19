@@ -1,4 +1,4 @@
-import { BookOpen, ExternalLink, ArrowLeft, Gift, Code, Video } from 'lucide-react';
+import { BookOpen, ExternalLink, ArrowLeft, Gift, Code, Video, ClipboardCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const HackPackPage = () => {
@@ -264,6 +264,74 @@ if __name__ == "__main__":
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="mb-16">
+          <div className="flex items-center mb-8">
+            <ClipboardCheck className="w-8 h-8 text-[#14a19f] mr-3" />
+            <h2 className="text-3xl font-bold">Judgment Criteria</h2>
+          </div>
+
+          <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-8">
+            <p className="text-gray-300 mb-8">
+              Use these criteria to guide your project development and prepare for evaluation. Total score: 100 points.
+            </p>
+
+            <div className="space-y-8">
+              <div className="border-l-4 border-[#14a19f] pl-6">
+                <h3 className="text-xl font-bold text-white mb-3">1. Problem Understanding & Relevance</h3>
+                <ul className="text-gray-300 space-y-2 list-disc list-inside">
+                  <li>Is the project clearly aligned with its chosen track theme?</li>
+                  <li>Does it tackle a meaningful, real-world challenge (technical, cultural, or civic)?</li>
+                  <li>Is the problem statement well-defined and research-informed?</li>
+                </ul>
+              </div>
+
+              <div className="border-l-4 border-[#14a19f] pl-6">
+                <h3 className="text-xl font-bold text-white mb-3">2. Innovation & Creativity</h3>
+                <ul className="text-gray-300 space-y-2 list-disc list-inside">
+                  <li>Does the project bring a fresh perspective or unique approach?</li>
+                  <li>Does it explore new intersections of AI and society/culture?</li>
+                  <li>Is there originality in concept, design, or methodology?</li>
+                </ul>
+              </div>
+
+              <div className="border-l-4 border-[#14a19f] pl-6">
+                <h3 className="text-xl font-bold text-white mb-3">3. Technical Execution</h3>
+                <ul className="text-gray-300 space-y-2 list-disc list-inside">
+                  <li>How well is the AI or system implemented (model, code, architecture)?</li>
+                  <li>Does it demonstrate technical depth, sound methodology, and functional output?</li>
+                  <li>Is the use of AI tools/frameworks appropriate and effective?</li>
+                </ul>
+              </div>
+
+              <div className="border-l-4 border-[#14a19f] pl-6">
+                <h3 className="text-xl font-bold text-white mb-3">4. Impact & Ethics</h3>
+                <ul className="text-gray-300 space-y-2 list-disc list-inside">
+                  <li>Does it consider social, ethical, or human implications thoughtfully?</li>
+                  <li>Does it actively aim to reduce harm, improve transparency, or empower communities?</li>
+                  <li>Is there evidence of responsible AI thinking (e.g., fairness, privacy, consent)?</li>
+                </ul>
+              </div>
+
+              <div className="border-l-4 border-[#14a19f] pl-6">
+                <h3 className="text-xl font-bold text-white mb-3">5. User Experience & Presentation</h3>
+                <ul className="text-gray-300 space-y-2 list-disc list-inside">
+                  <li>Is the demo clear, functional, and engaging?</li>
+                  <li>Does the user experience communicate the idea effectively?</li>
+                  <li>Are the design, storytelling, and presentation quality strong?</li>
+                </ul>
+              </div>
+
+              <div className="border-l-4 border-[#14a19f] pl-6">
+                <h3 className="text-xl font-bold text-white mb-3">6. Feasibility & Future Potential</h3>
+                <ul className="text-gray-300 space-y-2 list-disc list-inside">
+                  <li>Is the idea realistic to scale or continue post-hackathon?</li>
+                  <li>Does it have potential for community adoption, open-source impact, or real-world testing?</li>
+                </ul>
               </div>
             </div>
           </div>
