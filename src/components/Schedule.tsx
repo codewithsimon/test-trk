@@ -48,14 +48,14 @@ const Schedule = () => {
       day: 'Oct 20',
       date: 'Monday',
       events: [
-        { time: '1 hr live', title: 'Dry Run Pitches + Mentorship', icon: Presentation, description: 'BTC Pitch Advice - Nefertity/Wada' },
+        { time: 'All Day', title: 'Project Development Day', icon: Code, description: 'No meetings scheduled - Focus on building your project' },
       ],
     },
     {
       day: 'Oct 22',
       date: 'Wednesday',
       events: [
-        { time: 'All day', title: 'Final Submission Deadline', icon: Trophy },
+        { time: 'All day', title: 'Project Development Day + Final Submission Deadline', icon: Trophy, description: 'No meetings scheduled - Complete and submit your project' },
       ],
     },
     {
