@@ -36,40 +36,21 @@ const Hero = () => {
 
         <div className="mb-12 max-w-4xl mx-auto">
           <div className="bg-gradient-to-r from-gray-800/60 via-gray-900/80 to-gray-800/60 backdrop-blur-md rounded-2xl border-2 border-[#14a19f] p-8 shadow-[0_0_50px_rgba(20,161,159,0.4)]">
-            <div className="grid md:grid-cols-2 gap-6 divide-y md:divide-y-0 md:divide-x divide-[#14a19f]/30">
-              <div className="text-center pb-6 md:pb-0">
-                <p className="text-sm sm:text-base text-gray-400 uppercase tracking-wider mb-2">Hackathon Dates</p>
-                <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
-                  October 14-25
-                </p>
-                <p className="text-lg sm:text-xl text-[#14a19f] font-semibold mt-1">2025</p>
-              </div>
-              <div className="text-center pt-6 md:pt-0 md:pl-6">
-                <p className="text-sm sm:text-base text-gray-400 uppercase tracking-wider mb-2">Register</p>
-                <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
-                  October 20
-                </p>
-                <p className="text-lg sm:text-xl text-red-400 font-semibold mt-1 animate-pulse">Don't miss out!</p>
-              </div>
+            <div className="text-center">
+              <p className="text-sm sm:text-base text-gray-400 uppercase tracking-wider mb-2">Hackathon Dates</p>
+              <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
+                October 14-25
+              </p>
+              <p className="text-lg sm:text-xl text-[#14a19f] font-semibold mt-1">2025</p>
             </div>
           </div>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="https://tally.so/r/wa7X6Z"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group px-8 py-4 bg-gradient-to-r from-[#14a19f] to-[#0d7775] text-white rounded-xl text-lg font-semibold hover:glow-border hover:scale-105 transition-all duration-300 flex items-center space-x-2 shadow-2xl"
-            style={{ boxShadow: '0 10px 40px rgba(20, 161, 159, 0.5)' }}
-          >
-            <span>Register Now</span>
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </a>
-
-          <a
             href="#tracks"
-            className="px-8 py-4 border-2 border-[#14a19f] text-[#14a19f] rounded-xl text-lg font-semibold hover:bg-gradient-to-r hover:from-[#14a19f] hover:to-[#0d7775] hover:text-white hover:scale-105 transition-all duration-300 backdrop-blur-sm bg-gray-900/40 shadow-lg"
+            className="px-8 py-4 bg-gradient-to-r from-[#14a19f] to-[#0d7775] text-white rounded-xl text-lg font-semibold hover:scale-105 transition-all duration-300 shadow-2xl"
+            style={{ boxShadow: '0 10px 40px rgba(20, 161, 159, 0.5)' }}
           >
             View Tracks
           </a>
